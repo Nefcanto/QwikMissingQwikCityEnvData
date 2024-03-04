@@ -1,0 +1,367 @@
+{
+	"extends": "./TsConfigBase",
+	"compilerOptions": {
+		"paths": {
+			"Accounts": [
+				"src/Modules/Accounts/Exports"
+			],
+			"AdvertisementParts": [
+				"src/Components/AdvertisementParts/Exports"
+			],
+			"Advertisements": [
+				"src/Modules/Advertisements/Exports"
+			],
+			"AdvertisementsParts": [
+				"src/Components/AdvertisementsParts/Exports"
+			],
+			"Aggregates": [
+				"src/Modules/Aggregates/Exports"
+			],
+			"Announcements": [
+				"src/Modules/Announcements/Exports"
+			],
+			"Attributes": [
+				"src/Modules/Attributes/Exports"
+			],
+			"Banners": [
+				"src/Modules/Banners/Exports"
+			],
+			"Base": [
+				"src/Base/Exports"
+			],
+			"Blog": [
+				"src/Modules/Blog/Exports"
+			],
+			"BlogParts": [
+				"src/Components/BlogParts/Exports"
+			],
+			"BrandParts": [
+				"src/Components/BrandParts/Exports"
+			],
+			"Brands": [
+				"src/Modules/Brands/Exports"
+			],
+			"BrandsParts": [
+				"src/Components/BrandsParts/Exports"
+			],
+			"Bundling": [
+				"src/Modules/Bundling/Exports"
+			],
+			"Cars": [
+				"src/Modules/Cars/Exports"
+			],
+			"CartParts": [
+				"src/Components/CartParts/Exports"
+			],
+			"CheckoutParts": [
+				"src/Components/CheckoutParts/Exports"
+			],
+			"Collaboration": [
+				"src/Modules/Collaboration/Exports"
+			],
+			"Commissions": [
+				"src/Modules/Commissions/Exports"
+			],
+			"CompareParts": [
+				"src/Components/CompareParts/Exports"
+			],
+			"Configuration": [
+				"src/Modules/Configuration/Exports"
+			],
+			"Contact": [
+				"src/Components/Contact/Exports"
+			],
+			"Contacts": [
+				"src/Modules/Contacts/Exports"
+			],
+			"ContentPolicies": [
+				"src/Modules/ContentPolicies/Exports"
+			],
+			"Contents": [
+				"src/Modules/Contents/Exports"
+			],
+			"Contracts": [
+				"src/Modules/Contracts/Exports"
+			],
+			"CourseParts": [
+				"src/Components/CourseParts/Exports"
+			],
+			"Courses": [
+				"src/Modules/Courses/Exports"
+			],
+			"CoursesParts": [
+				"src/Components/CoursesParts/Exports"
+			],
+			"Currencies": [
+				"src/Modules/Currencies/Exports"
+			],
+			"Dashboard": [
+				"src/Components/Dashboard/Exports"
+			],
+			"Discounts": [
+				"src/Modules/Discounts/Exports"
+			],
+			"EpisodeParts": [
+				"src/Components/EpisodeParts/Exports"
+			],
+			"Events": [
+				"src/Modules/Events/Exports"
+			],
+			"EventsParts": [
+				"src/Components/EventsParts/Exports"
+			],
+			"Faqs": [
+				"src/Modules/Faqs/Exports"
+			],
+			"Flashcards": [
+				"src/Modules/Flashcards/Exports"
+			],
+			"Forms": [
+				"src/Modules/Forms/Exports"
+			],
+			"Forum": [
+				"src/Modules/Forum/Exports"
+			],
+			"Galleries": [
+				"src/Modules/Galleries/Exports"
+			],
+			"GalleriesParts": [
+				"src/Components/GalleriesParts/Exports"
+			],
+			"GalleryParts": [
+				"src/Components/GalleryParts/Exports"
+			],
+			"Geo": [
+				"src/Modules/Geo/Exports"
+			],
+			"Globalization": [
+				"src/Modules/Globalization/Exports"
+			],
+			"Grading": [
+				"src/Modules/Grading/Exports"
+			],
+			"HierarchiesParts": [
+				"src/Components/HierarchiesParts/Exports"
+			],
+			"HierarchyChildrenParts": [
+				"src/Components/HierarchyChildrenParts/Exports"
+			],
+			"History": [
+				"src/Modules/History/Exports"
+			],
+			"Index": [
+				"src/Components/Index/Exports"
+			],
+			"InstructorParts": [
+				"src/Components/InstructorParts/Exports"
+			],
+			"InvoiceParts": [
+				"src/Components/InvoiceParts/Exports"
+			],
+			"Layout": [
+				"src/Components/Layout/Exports"
+			],
+			"Loaders": [
+				"src/Loaders"
+			],
+			"Logs": [
+				"src/Modules/Logs/Exports"
+			],
+			"Marketing": [
+				"src/Modules/Marketing/Exports"
+			],
+			"Media": [
+				"src/Modules/Media/Exports"
+			],
+			"Modules": [
+				"src/Modules/Modules/Exports"
+			],
+			"Navigation": [
+				"src/Modules/Navigation/Exports"
+			],
+			"NewConfiguration": [
+				"src/Modules/NewConfiguration/Exports"
+			],
+			"NewTaxonomy": [
+				"src/Modules/NewTaxonomy/Exports"
+			],
+			"OldHome": [
+				"src/Components/OldHome/Exports"
+			],
+			"Orders": [
+				"src/Modules/Orders/Exports"
+			],
+			"Organization": [
+				"src/Modules/Organization/Exports"
+			],
+			"PageParts": [
+				"src/Components/PageParts/Exports"
+			],
+			"PaginationBehaviors": [
+				"src/PaginationBehaviors"
+			],
+			"Payment": [
+				"src/Modules/Payment/Exports"
+			],
+			"Payroll": [
+				"src/Modules/Payroll/Exports"
+			],
+			"Places": [
+				"src/Modules/Places/Exports"
+			],
+			"Podcast": [
+				"src/Modules/Podcast/Exports"
+			],
+			"PodcastParts": [
+				"src/Components/PodcastParts/Exports"
+			],
+			"PostParts": [
+				"src/Components/PostParts/Exports"
+			],
+			"PriceListParts": [
+				"src/Components/PriceListParts/Exports"
+			],
+			"Pricing": [
+				"src/Modules/Pricing/Exports"
+			],
+			"ProductParts": [
+				"src/Components/ProductParts/Exports"
+			],
+			"ProductVariantsParts": [
+				"src/Components/ProductVariantsParts/Exports"
+			],
+			"Products": [
+				"src/Modules/Products/Exports"
+			],
+			"ProductsParts": [
+				"src/Components/ProductsParts/Exports"
+			],
+			"Programming": [
+				"src/Modules/Programming/Exports"
+			],
+			"ProjectParts": [
+				"src/Components/ProjectParts/Exports"
+			],
+			"Projects": [
+				"src/Modules/Projects/Exports"
+			],
+			"ProjectsParts": [
+				"src/Components/ProjectsParts/Exports"
+			],
+			"Properties": [
+				"src/Modules/Properties/Exports"
+			],
+			"PropertiesParts": [
+				"src/Components/PropertiesParts/Exports"
+			],
+			"PropertyParts": [
+				"src/Components/PropertyParts/Exports"
+			],
+			"QuestionParts": [
+				"src/Components/QuestionParts/Exports"
+			],
+			"Questions": [
+				"src/Modules/Questions/Exports"
+			],
+			"QuestionsParts": [
+				"src/Components/QuestionsParts/Exports"
+			],
+			"Quran": [
+				"src/Modules/Quran/Exports"
+			],
+			"Qwik": [
+				"node_modules/@builder.io/qwik"
+			],
+			"QwikCity": [
+				"node_modules/@builder.io/qwik-city"
+			],
+			"Reasons": [
+				"src/Components/Reasons/Exports"
+			],
+			"RestaurantParts": [
+				"src/Components/RestaurantParts/Exports"
+			],
+			"Restaurants": [
+				"src/Modules/Restaurants/Exports"
+			],
+			"RestaurantsParts": [
+				"src/Components/RestaurantsParts/Exports"
+			],
+			"RichTextComponents": [
+				"src/RichTextComponents"
+			],
+			"Sales": [
+				"src/Modules/Sales/Exports"
+			],
+			"SalonParts": [
+				"src/Components/SalonParts/Exports"
+			],
+			"Salons": [
+				"src/Modules/Salons/Exports"
+			],
+			"SalonsParts": [
+				"src/Components/SalonsParts/Exports"
+			],
+			"Science": [
+				"src/Modules/Science/Exports"
+			],
+			"Seo": [
+				"src/Modules/Seo/Exports"
+			],
+			"Services": [
+				"src/Modules/Services/Exports"
+			],
+			"ServicesParts": [
+				"src/Components/ServicesParts/Exports"
+			],
+			"Shared": [
+				"src/Components/Shared/Exports"
+			],
+			"Shipment": [
+				"src/Modules/Shipment/Exports"
+			],
+			"Social": [
+				"src/Modules/Social/Exports"
+			],
+			"Subscriptions": [
+				"src/Modules/Subscriptions/Exports"
+			],
+			"Svg": [
+				"src/Components/Svg/Exports"
+			],
+			"TagsParts": [
+				"src/Components/TagsParts/Exports"
+			],
+			"Taxonomy": [
+				"src/Modules/Taxonomy/Exports"
+			],
+			"Tenants": [
+				"src/Modules/Tenants/Exports"
+			],
+			"Ticketing": [
+				"src/Modules/Ticketing/Exports"
+			],
+			"Units": [
+				"src/Modules/Units/Exports"
+			],
+			"Vlog": [
+				"src/Modules/Vlog/Exports"
+			],
+			"VlogParts": [
+				"src/Components/VlogParts/Exports"
+			],
+			"VlogPostParts": [
+				"src/Components/VlogPostParts/Exports"
+			],
+			"Wallet": [
+				"src/Modules/Wallet/Exports"
+			],
+			"Warranty": [
+				"src/Modules/Warranty/Exports"
+			],
+			"WarrantyInquiryParts": [
+				"src/Components/WarrantyInquiryParts/Exports"
+			]
+		}
+	}
+}
