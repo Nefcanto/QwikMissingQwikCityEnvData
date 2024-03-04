@@ -5,7 +5,7 @@ import type { Provider } from "@auth/core/providers"
 import Keycloak from "@auth/core/providers/keycloak"
 
 export const { onRequest, useAuthSession, useAuthSignin, useAuthSignout } = serverAuth$(
-    ({ env }) => ({
+    () => ({
         secret: "auth-secret",
         trustHost: true,
         callbacks: {
